@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "439de91f-3d57-468a-b758-b2170737f52f"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/base.css",
+              "src/assets/css/style.css",
+              "src/assets/css/owl-carousel.css",
+              "src/assets/css/magnific-popup.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/owl-carousel.js",
+              "src/assets/js/parallax.js",
+              "src/assets/js/magnific-popup.js",
+              "src/assets/js/onepage.js",
+              "src/assets/js/waypoints.js",
+              "src/assets/js/isotope.js",
+              "src/assets/js/init.js"
+            ]
           },
           "configurations": {
             "production": {
